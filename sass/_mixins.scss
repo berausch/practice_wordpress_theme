@@ -1,0 +1,36 @@
+//media quieries
+$breakpoints: (
+'phone-port': 420px,
+'phone-land': 420px,
+'tablet-port': 600px,
+'tablet-land': 900px,
+'desktop': 1200px,
+'desktop-big': 1800px
+);
+@mixin breakorient($device){
+  @if map-has-key($breakpoints, $device){
+    @if $device == phone-port {
+      @media only screen and (max-width: map-get($breakpoints, $device)) and (orientation: portrait) {@content ;}
+    }
+    @else if $device == phone-land or $device == tablet-land {
+      @media only screen and (min-width: map-get($breakpoints, $device)) and (orientation: landscape) {@content ;}
+    }
+    @else if $device == tablet-port {
+      @media only screen and (min-width: map-get($breakpoints, $device)) and (orientation: portrait) {@content ;}
+    }
+    @else {
+      @media (min-width: map-get($breakpoints, $device)) {@content ;}
+    }
+  }
+}
+
+@mixin break($device){
+  @if map-has-key($breakpoints, $device){
+    @if $device == phone-port {
+      @media only screen and (max-width: map-get($breakpoints, $device)) {@content ;}
+    }
+    @else {
+      @media (min-width: map-get($breakpoints, $device)) {@content ;}
+    }
+  }
+}

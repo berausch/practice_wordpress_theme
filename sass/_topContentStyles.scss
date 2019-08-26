@@ -1,0 +1,33 @@
+#top-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+@include break('tablet-port'){
+    grid-template-columns: repeat(auto-fit, minmax(640px, 1fr));
+  }
+  #web-dev-column {
+    justify-self: center;
+    align-self: start;
+    @include break('desktop'){
+      align-self: center;
+    }
+    h3{
+      font-size: 70px;
+      padding: 0px 20px;
+      margin: 0px;
+    }
+  }
+
+  #welcome-column{
+    h3{
+      font-family: $font-body-light;
+      font-size: 50px;
+      @media only screen and (max-height:1000px) {
+        display: none;
+        position: absolute;
+      }
+    }
+    @include break('desktop'){
+    grid-column: auto / span 2;
+    }
+  }
+}

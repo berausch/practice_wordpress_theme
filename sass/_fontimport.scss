@@ -1,0 +1,47 @@
+@font-face{
+    font-family: 'Avenir Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/AvenirLTStd-Light.woff') format('woff');
+}
+@font-face{
+    font-family: 'Avenir Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/AvenirLTStd-Roman.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'Bebas Book';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/BebasNeue-Book.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'Bebas Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/BebasNeue-Light.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'Bebas Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/BebasNeue-Regular.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'Sign Painter';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/SignPainterHouseScriptRegular.woff') format('woff');
+}
+
+$font-body-light: 'Avenir Light';
+$font-body-roman: 'Avenir Roman';
+$font-header-book: 'Bebas Book';
+$font-header-light: 'Bebas Light';
+$font-header-regular: 'Bebas Regular';
+$font-accent-cursive: 'Sign Painter';

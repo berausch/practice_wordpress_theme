@@ -1,0 +1,24 @@
+#wrapper {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+
+  #top-navbar{
+    background-color: $blue-primary ;
+  }
+  .table-of-contents {
+    a.active {
+        border-bottom: 2px solid $white-primary;
+        border-left: 0px solid $blue-primary;
+    }
+
+    a {
+      color: white;
+      
+    }
+
+    a:hover {
+          border-left: 0px solid $blue-primary;
+    }
+  }
+}

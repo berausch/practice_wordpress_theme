@@ -1,0 +1,78 @@
+/*
+Theme Name: Practice Theme
+Version: 1.0
+Author: Brittany
+Description: This is a Practice theme.
+*/
+@import 'sass/fontimport', 'sass/colors', 'sass/mixins.scss', 'sass/headerstyles', 'sass/pinstyles', 'sass/nametagstyles', 'sass/topContentStyles';
+
+html, body, .block {
+height: 100%;
+}
+
+.block-top {
+height: 80%;
+@include breakorient('tablet-port') {
+  height: 60%;
+}
+@include break('desktop') {
+  height: 90%;
+}
+
+}
+
+p {
+    font-family: $font-body-light;
+    font-size: 20px;
+}
+
+h3 {
+  font-family: $font-header-regular;
+}
+
+h4 {
+  font-family: $font-header-book;
+  font-stretch: extra-expanded;
+  font-size: 48px;
+}
+
+//Content sections- about me, portfolio, skills
+#content-wrapper {
+  text-align: center;
+
+  .indiv-content-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    color: white;
+    font-size: 55px;
+    text-shadow: 1px 1px #212628;
+    transition: font-size 1s, text-shadow 2s;
+
+    &:hover {
+      font-size: 61px;
+      text-shadow: 1px 1px 3px #212628;
+
+    }
+  }
+
+  .content-background  {
+    background-color: $white-primary;
+    color: black;
+  }
+  .about-me {
+    background-color: $pink-accent;
+  }
+
+  .portfolio {
+    background-color: $yellow-accent;
+  }
+
+  .skills {
+    background-color: $pink-accent;
+  }
+}
+
+#footer {
+  border: 2px #384E77 solid;
+}

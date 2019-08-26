@@ -1,0 +1,56 @@
+
+
+#name-tag-column{
+justify-self: center;
+align-self: center;
+width: 80%;
+min-width: 300px;
+background-color: lighten($pink-accent, 10%);
+border-radius: 25px;
+padding: 10px 10px 20px 10px;
+@include break('tablet-port'){
+  width: 500px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+@media only screen and (min-width:1350px){
+  width: 80%;
+}
+>h4:first-of-type {
+  font-size: 60px;
+  margin-top: .15em;
+  margin-bottom: 0em;
+  color: white;
+  font-family: $font-accent-cursive;
+  @include break('desktop'){
+    font-size: 5.5vw;
+  }
+}
+h5 {
+  font-size: 25px;
+  color: white;
+  font-family: $font-body-light;
+  margin-top: 0em;
+  @include break('desktop'){
+    font-size: 3vw;
+  }
+}
+}
+
+
+
+
+#name-tag-inner-box {
+  background-color: $white-primary;
+  h4 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    @include break('desktop'){
+      font-size: 6vw;
+    }
+    @include break('tablet-port'){
+      font-size: 70px;
+    }
+  }
+}
