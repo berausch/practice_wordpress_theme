@@ -45,8 +45,119 @@
           </nav>
           <div class="content-background">
             <div class="block valign-wrapper row container ">
-              <div>
-                <h4 id="portfolio-heading" class="center-align">Portfolio</h4>
+              <div id="portfolio-content">
+                <div class="card sticky-action">
+                  <div class="card-image" >
+                    <img id="sommer-breeze-web-screenshot"  class="activator" src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_home.png" alt="Screenshot of the Home page of sommerbreeze.com">
+                  </div>  
+                  <div class="card-content">
+                    <span class="card-title activator">Sommer Breeze</span>
+                  </div>
+                  <div class="card-action">
+                    <button class="btn modal-trigger waves-effect" data-target="sommerBreezeInfo">More Images</button>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title">Sommer Breeze <i class="material-icons right">close</i></span>
+                      <p>
+                        More about Sommerbreeze.com
+                      </p>
+                  </div>
+                  <div id="sommerBreezeInfo" class="modal">
+                    <div class="modal-content">
+                    <div class="carousel carousel-slider">
+                    <div class="carousel-fixed-item">
+                        <div class="left">
+                          <a href="#!" class="movePrevCarousel waves-effect waves-light carousel-arrows"><i class="material-icons left">chevron_left</i></a>
+                        </div>
+                        <div class="right">
+                          <a href="#!" class="moveNextCarousel waves-effect waves-light carousel-arrows"><i class="material-icons right">chevron_right</i></a>
+                        </div>
+                      </div>
+                      <a class="carousel-item" href="#one!">
+
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_home.png" alt="Screenshot of the Home page of sommerbreeze.com">
+
+                      </a>
+                      <a class="carousel-item" href="#two!">
+
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_photography.png" alt="Screenshot of the Photography portfolio page of sommerbreeze.com">
+
+                      </a>
+                      <a class="carousel-item" href="#three!">
+
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_blog.png" alt="Screenshot of the Blog landing page of sommerbreeze.com">
+
+                      </a>
+                      <a class="carousel-item" href="#four!">
+
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_blog-health.png" alt="Screenshot of the Health Blog page of sommerbreeze.com">
+                      </a>
+                      <a class="carousel-item" href="#five!">
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_about.png" alt="Screenshot of the About page of sommerbreeze.com">
+                      </a>
+                    </div>
+                      <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect btn-flat">X</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card sticky-action">
+                  <div class="card-image" >
+                    <img id="sommer-breeze-web-screenshot" class="activator" src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_home.png" alt="Screenshot of the Home page of sommerbreeze.com">
+                  </div>
+                    <div class="card-content ">
+                  <span class="card-title activator">Sommer Breeze</span>
+                  </div>
+                  <div class="card-action">
+                    <button class="btn modal-trigger waves-effect" data-target="sommerBreezeInfo">More Images</button>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title">Sommer Breeze <i class="material-icons right">close</i></span>
+                      <p>
+                        More about Sommerbreeze.com
+                      </p>
+                  </div>
+                  <div id="sommerBreezeInfo" class="modal">
+                    <div class="modal-content">
+                    <div class="carousel carousel-slider">
+                    <div class="carousel-fixed-item">
+                        <div class="left">
+                          <a href="#!" class="movePrevCarousel waves-effect waves-light carousel-arrows"><i class="material-icons left">chevron_left</i></a>
+                        </div>
+                        <div class="right">
+                          <a href="#!" class="moveNextCarousel waves-effect waves-light carousel-arrows"><i class="material-icons right">chevron_right</i></a>
+                        </div>
+                      </div>
+                      <a class="carousel-item" href="#one!">
+
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_home.png" alt="Screenshot of the Home page of sommerbreeze.com">
+
+                      </a>
+                      <a class="carousel-item" href="#two!">
+
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_photography.png" alt="Screenshot of the Photography portfolio page of sommerbreeze.com">
+
+                      </a>
+                      <a class="carousel-item" href="#three!">
+
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_blog.png" alt="Screenshot of the Blog landing page of sommerbreeze.com">
+
+                      </a>
+                      <a class="carousel-item" href="#four!">
+
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_blog-health.png" alt="Screenshot of the Health Blog page of sommerbreeze.com">
+                      </a>
+                      <a class="carousel-item" href="#five!">
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_about.png" alt="Screenshot of the About page of sommerbreeze.com">
+                      </a>
+                    </div>
+                      <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect btn-flat">X</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

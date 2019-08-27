@@ -4,10 +4,10 @@ Version: 1.0
 Author: Brittany
 Description: This is a Practice theme.
 */
-@import 'sass/fontimport', 'sass/colors', 'sass/mixins.scss', 'sass/headerstyles', 'sass/pinstyles', 'sass/nametagstyles', 'sass/topContentStyles';
+@import 'sass/fontimport', 'sass/colors', 'sass/mixins.scss', 'sass/headerstyles', 'sass/pinstyles', 'sass/nametagstyles', 'sass/topContentStyles','sass/carouselstyles', 'sass/portfoliostyles.scss';
 
 html, body, .block {
-height: 100%;
+min-height: 100%;
 }
 
 .block-top {

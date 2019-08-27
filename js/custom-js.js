@@ -7,7 +7,25 @@ $(document).ready(function(){
    $('.scrollspy').scrollSpy({
      scrollOffset: 0
    });
-    $('.sidenav').sidenav();
+   $('.sidenav').sidenav();
+   $('.modal').modal();
+   $('.slider').slider();
+   $('.carousel.carousel-slider').carousel({
+  fullWidth: true,
+});
+// move next carousel
+$('.moveNextCarousel').click(function(e){
+   e.preventDefault();
+   e.stopPropagation();
+   $('.carousel').carousel('next');
+});
+// move prev carousel
+$('.movePrevCarousel').click(function(e){
+  e.preventDefault();
+  e.stopPropagation();
+  $('.carousel').carousel('prev');
+});
+
  });
 
 
