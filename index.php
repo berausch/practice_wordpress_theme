@@ -175,26 +175,46 @@
                 <div class="card">
                   <h3>
                     HTML</h3>
+                    <div class="card-image html-pic">
+                    <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/10/HTML-logo.jpg" alt="HTML logo">
+                  </div>
                 </div>
                 <div class="card">
                   <h3>
                     CSS</h3>
+                    <div class="card-image css-pic">
+                    <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/10/css-logo.jpg" alt="CSS logo">
+                  </div>
                 </div>
+
                 <div class="card">
                   <h3>
                     Javascript</h3>
+                    <div class="card-image js-pic">
+                    <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/10/JS-Logo.png" alt="Javascript logo">
+                  </div>
                 </div>
+
                 <div class="card">
                   <h3>
                     JQuery</h3>
+                    <div class="card-image jquery-pic">
+                    <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/10/jquery-logo-1.png" alt="Jquery logo">
+                  </div>
                 </div>
                 <div class="card">
                   <h3>
                     C#</h3>
+                    <div class="card-image">
+                    <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/10/Csharp-logo.png" alt="C# logo">
+                  </div>
                 </div>
                 <div class="card">
                   <h3>
                     .NET</h3>
+                    <div class="card-image">
+                    <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/10/NET-logo.png" alt=".NET logo">
+                  </div>
                 </div>
               </div>
             </div>

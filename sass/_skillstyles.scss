@@ -3,4 +3,28 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 2%;
   width: 100%;
+  .card {
+    padding-bottom: 20px;
+  }
+  img{
+   max-height: 100px;
+   max-width: 175px;
+    height:auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    .html-pic {
+      max-width: 87px;
+    }
+    .css-pic {
+      max-width: 100px;
+    }
+    .js-pic {
+      max-width: 88px;
+    }
+    .jquery-pic {
+      max-height: 48px;
+      max-width: 150px;
+    }
+  }
 }
