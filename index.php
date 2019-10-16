@@ -48,13 +48,14 @@
               <div id="portfolio-content">
                 <div class="card sticky-action">
                   <div class="card-image" >
-                    <img id="sommer-breeze-web-screenshot"  class="activator" src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_home.png" alt="Screenshot of the Home page of sommerbreeze.com">
-                  </div>  
+                    <img id="sommer-breeze-web-screenshot" src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_home.png" alt="Screenshot of the Home page of sommerbreeze.com">
+                  </div>
                   <div class="card-content">
-                    <span class="card-title activator">Sommer Breeze</span>
+                    <span class="card-title">Sommer Breeze</span>
                   </div>
                   <div class="card-action">
-                    <button class="btn modal-trigger waves-effect" data-target="sommerBreezeInfo">More Images</button>
+                    <button class="activator btn modal-trigger waves-effect" >Info</button>
+                    <button class="btn modal-trigger waves-effect" data-target="sommerBreezeInfo">Images</button>
                   </div>
                   <div class="card-reveal">
                     <span class="card-title">Sommer Breeze <i class="material-icons right">close</i></span>
@@ -104,21 +105,22 @@
                 </div>
                 <div class="card sticky-action">
                   <div class="card-image" >
-                    <img id="sommer-breeze-web-screenshot" class="activator" src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_home.png" alt="Screenshot of the Home page of sommerbreeze.com">
+                    <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/routey_Add_Stops_End.png" alt="Screenshot of having multiple stops and the map link on the Routey website.">
                   </div>
                     <div class="card-content ">
-                  <span class="card-title activator">Sommer Breeze</span>
+                  <span class="card-title">Routey</span>
                   </div>
                   <div class="card-action">
-                    <button class="btn modal-trigger waves-effect" data-target="sommerBreezeInfo">More Images</button>
+                    <button class="activator btn modal-trigger waves-effect">Info</button>
+                    <button class="btn modal-trigger waves-effect" data-target="routeyInfo">Images</button>
                   </div>
                   <div class="card-reveal">
-                    <span class="card-title">Sommer Breeze <i class="material-icons right">close</i></span>
+                    <span class="card-title">Routey<i class="material-icons right">close</i></span>
                       <p>
-                        More about Sommerbreeze.com
+                        More about Routey
                       </p>
                   </div>
-                  <div id="sommerBreezeInfo" class="modal">
+                  <div id="routeyInfo" class="modal">
                     <div class="modal-content">
                     <div class="carousel carousel-slider">
                     <div class="carousel-fixed-item">
@@ -131,25 +133,22 @@
                       </div>
                       <a class="carousel-item" href="#one!">
 
-                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_home.png" alt="Screenshot of the Home page of sommerbreeze.com">
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/Routey_Starting_Point.png" alt="Screenshot of the Home page of the Routey website.">
 
                       </a>
                       <a class="carousel-item" href="#two!">
 
-                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_photography.png" alt="Screenshot of the Photography portfolio page of sommerbreeze.com">
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/Routey_Add_Stop.png" alt="Screenshot of the adding a stop on the Routey website.">
 
                       </a>
                       <a class="carousel-item" href="#three!">
 
-                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_blog.png" alt="Screenshot of the Blog landing page of sommerbreeze.com">
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/Routey_Add_Stop_Map.png" alt="Screenshot of the adding a stop via a map on the ROutey website.">
 
                       </a>
                       <a class="carousel-item" href="#four!">
 
-                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_blog-health.png" alt="Screenshot of the Health Blog page of sommerbreeze.com">
-                      </a>
-                      <a class="carousel-item" href="#five!">
-                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/sommerbreeze_about.png" alt="Screenshot of the About page of sommerbreeze.com">
+                        <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/08/Routey_Add_Stop_Mult.png" alt="Screenshot of having multiple stops and the map link on the Routey website.">
                       </a>
                     </div>
                       <div class="modal-footer">
@@ -172,8 +171,31 @@
           </nav>
           <div class="content-background">
             <div class="block valign-wrapper row container ">
-              <div>
-                <h4 id="skills-heading" class="center-align">Skills</h4>
+              <div id="skills-content">
+                <div class="card">
+                  <h3>
+                    HTML</h3>
+                </div>
+                <div class="card">
+                  <h3>
+                    CSS</h3>
+                </div>
+                <div class="card">
+                  <h3>
+                    Javascript</h3>
+                </div>
+                <div class="card">
+                  <h3>
+                    JQuery</h3>
+                </div>
+                <div class="card">
+                  <h3>
+                    C#</h3>
+                </div>
+                <div class="card">
+                  <h3>
+                    .NET</h3>
+                </div>
               </div>
             </div>
           </div>

@@ -20,9 +20,9 @@ $('.moveNextCarousel').click(function(e){
    $('.carousel').carousel('next');
 });
 // move prev carousel
-$('.movePrevCarousel').click(function(e){
-  e.preventDefault();
-  e.stopPropagation();
+$('.movePrevCarousel').click(function(event){
+  event.preventDefault();
+  event.stopPropagation();
   $('.carousel').carousel('prev');
 });
 
