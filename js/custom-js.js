@@ -26,17 +26,24 @@ $('.movePrevCarousel').click(function(event){
   $('.carousel').carousel('prev');
 });
 
+$('.pushpin-nav').each(function() {
+   var $this = $(this);
+   var $target = $('#' + $(this).attr('data-target'));
+   $this.pushpin({
+     top: $target.offset().top,
+     bottom: $target.offset().top + $target.outerHeight() - $this.height(),
+     offset: 65
+   });
+ })
+
+ $('.card-hover-action').hover(
+   function(){$(this).addClass('z-depth-5');},
+   function(){$(this).removeClass('z-depth-5');}
+ );
+
  });
 
 
- $('.pushpin-nav').each(function() {
-    var $this = $(this);
-    var $target = $('#' + $(this).attr('data-target'));
-    $this.pushpin({
-      top: $target.offset().top,
-      bottom: $target.offset().top + $target.outerHeight() - $this.height(),
-      offset: 65
-    });
-  })
+
 
  })( jQuery );

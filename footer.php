@@ -1,5 +1,7 @@
       <div id="footer">
-        <h1>FOOTER</h1>
+        <p>
+          Copyright &copy <?php echo date("Y") ?> Brittany Rausch
+        </p>
       </div>
     </div>
     <?php wp_footer(); ?>

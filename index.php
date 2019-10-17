@@ -26,6 +26,10 @@
           </nav>
           <div class="content-background">
             <div class="block valign-wrapper row container ">
+              <div id="test-script">
+
+
+              </div>
               <div>
                 <h4 id="about-me-heading" class="center-align">About me, Brittany Rausch</h4>
                 <p id="about-me-p" class="center-align">
@@ -171,45 +175,45 @@
           </nav>
           <div class="content-background">
             <div class="block valign-wrapper row container ">
-              <div id="skills-content">
-                <div class="card">
+              <div id="skills-content" id="card-hover-action">
+                <div class="card card-hover-action" >
                   <h3>
                     HTML</h3>
-                    <div class="card-image html-pic">
+                    <div class="card-image" >
                     <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/10/HTML-logo.jpg" alt="HTML logo">
                   </div>
                 </div>
-                <div class="card">
+                <div class="card card-hover-action">
                   <h3>
                     CSS</h3>
-                    <div class="card-image css-pic">
+                    <div class="card-image">
                     <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/10/css-logo.jpg" alt="CSS logo">
                   </div>
                 </div>
 
-                <div class="card">
+                <div class="card card-hover-action">
                   <h3>
                     Javascript</h3>
-                    <div class="card-image js-pic">
+                    <div class="card-image">
                     <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/10/JS-Logo.png" alt="Javascript logo">
                   </div>
                 </div>
 
-                <div class="card">
+                <div class="card card-hover-action">
                   <h3>
                     JQuery</h3>
-                    <div class="card-image jquery-pic">
+                    <div class="card-image">
                     <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/10/jquery-logo-1.png" alt="Jquery logo">
                   </div>
                 </div>
-                <div class="card">
+                <div class="card card-hover-action">
                   <h3>
                     C#</h3>
                     <div class="card-image">
                     <img src="<?php echo home_url(); ?>/wp-content/uploads/2019/10/Csharp-logo.png" alt="C# logo">
                   </div>
                 </div>
-                <div class="card">
+                <div class="card card-hover-action">
                   <h3>
                     .NET</h3>
                     <div class="card-image">
