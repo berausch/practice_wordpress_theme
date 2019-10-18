@@ -1,4 +1,13 @@
 #footer {
   background-color: $blue-primary;
   color: $white-primary;
+
+  @include break('phone-port') {
+    width: 100%;
+  position:relative;
+  left:0;
+  bottom:0;
+  margin-top: 50%;
+  }
+
 }
